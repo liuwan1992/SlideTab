@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color1"
+    android:orientation="vertical">
+
+    <!-- 顶部 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@drawable/textview_corners_top_color4"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="逆变器位置"
+            android:textColor="@color/color1"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/textview_corners_bottom_color4"
+            android:gravity="center"
+            android:text="A 分区 B 子阵 3 号逆变器"
+            android:textColor="@color/color9"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <!-- 左侧 -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingRight="20dp">
+
+            <!-- 左侧1 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@drawable/textview_corners_top_color4"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="直流电压"
+                    android:textColor="@color/color1"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/textview_corners_bottom_color4"
+                    android:gravity="center"
+                    android:text="1234V"
+                    android:textColor="@color/color9"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <!-- 左侧2 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@drawable/textview_corners_top_color4"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="直流功率"
+                    android:textColor="@color/color1"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/textview_corners_bottom_color4"
+                    android:gravity="center"
+                    android:text="1234kW"
+                    android:textColor="@color/color9"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <!-- 左侧3 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@drawable/textview_corners_top_color4"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="交流电流"
+                    android:textColor="@color/color1"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/textview_corners_bottom_color4"
+                    android:gravity="center"
+                    android:text="1234A"
+                    android:textColor="@color/color9"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <!-- 左侧4 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@drawable/textview_corners_top_color4"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="当天发电量"
+                    android:textColor="@color/color1"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/textview_corners_bottom_color4"
+                    android:gravity="center"
+                    android:text="12345kW·h"
+                    android:textColor="@color/color9"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- 右侧 -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="20dp">
+
+            <!-- 右侧1 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@drawable/textview_corners_top_color4"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="直流电流"
+                    android:textColor="@color/color1"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/textview_corners_bottom_color4"
+                    android:gravity="center"
+                    android:text="1234A"
+                    android:textColor="@color/color9"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <!-- 右侧2 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@drawable/textview_corners_top_color4"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="交流电压"
+                    android:textColor="@color/color1"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/textview_corners_bottom_color4"
+                    android:gravity="center"
+                    android:text="1234V"
+                    android:textColor="@color/color9"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <!-- 右侧3 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@drawable/textview_corners_top_color4"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="交流功率"
+                    android:textColor="@color/color1"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/textview_corners_bottom_color4"
+                    android:gravity="center"
+                    android:text="1234kW"
+                    android:textColor="@color/color9"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <!-- 右侧4 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@drawable/textview_corners_top_color4"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="故障信息"
+                    android:textColor="@color/color1"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/textview_corners_bottom_color4"
+                    android:gravity="center"
+                    android:text="故障信息"
+                    android:textColor="@color/color9"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
